@@ -1,0 +1,91 @@
+{
+    "dataset_name": "commons-imaging",
+    "tests_with_one_focal_methods": [
+        {
+            "qualified_class_name": "org.apache.commons.imaging.ImageFormatsTest",
+            "method_signature": "testDefaultExtension(org.apache.commons.imaging.ImageFormats)",
+            "focal_details": [
+                {
+                    "focal_class": "org.apache.commons.imaging.ImageFormats",
+                    "focal_method_names": [
+                        "getDefaultExtension()"
+                    ]
+                }
+            ]
+        },
+        {
+            "qualified_class_name": "org.apache.commons.imaging.ImageFormatsTest",
+            "method_signature": "testName(org.apache.commons.imaging.ImageFormats)",
+            "focal_details": [
+                {
+                    "focal_class": "org.apache.commons.imaging.ImageFormats",
+                    "focal_method_names": [
+                        "getName()"
+                    ]
+                }
+            ]
+        }
+    ],
+    "tests_with_two_focal_methods": [
+        {
+            "qualified_class_name": "org.apache.commons.imaging.formats.jpeg.iptc.IptcParserTest",
+            "method_signature": "testEncodingSupport()",
+            "focal_details": [
+                {
+                    "focal_class": "org.apache.commons.imaging.formats.jpeg.JpegImageParser",
+                    "focal_method_names": [
+                        "getMetadata(java.io.File)"
+                    ]
+                },
+                {
+                    "focal_class": "org.apache.commons.imaging.formats.jpeg.JpegPhotoshopMetadata",
+                    "focal_method_names": [
+                        "getItems()"
+                    ]
+                },
+                {
+                    "focal_class": "org.apache.commons.imaging.common.GenericImageMetadata.GenericImageMetadataItem",
+                    "focal_method_names": []
+                }
+            ]
+        }
+    ],
+    "tests_with_more_than_two_to_five_focal_methods": [
+        {
+            "qualified_class_name": "org.apache.commons.imaging.formats.png.PngReadTest",
+            "method_signature": "testReadExif()",
+            "focal_details": [
+                {
+                    "focal_class": "org.apache.commons.imaging.formats.png.PngImageParser",
+                    "focal_method_names": [
+                        "getMetadata(java.io.File)"
+                    ]
+                },
+                {
+                    "focal_class": "org.apache.commons.imaging.formats.tiff.TiffImageMetadata",
+                    "focal_method_names": [
+                        "findDirectory(int)"
+                    ]
+                },
+                {
+                    "focal_class": "org.apache.commons.imaging.formats.png.PngImageMetadata",
+                    "focal_method_names": []
+                },
+                {
+                    "focal_class": "org.apache.commons.imaging.formats.tiff.TiffDirectory",
+                    "focal_method_names": [
+                        "getFieldValue(org.apache.commons.imaging.formats.tiff.taginfos.TagInfo)"
+                    ]
+                },
+                {
+                    "focal_class": "org.apache.commons.imaging.common.ImageMetadata",
+                    "focal_method_names": [
+                        "getItems()"
+                    ]
+                }
+            ]
+        }
+    ],
+    "tests_with_more_than_five_to_ten_focal_methods": [],
+    "tests_with_more_than_ten_focal_methods": []
+}

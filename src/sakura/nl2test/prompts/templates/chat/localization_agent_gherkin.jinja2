@@ -1,0 +1,15 @@
+TASK
+Localize the current scenario by mapping each step to exactly one relevant method (or justify as non-localizable), using tools to discover/verify candidates and to build argument bindings. 
+Minimize iterations by localizing as many steps as possible per round, using independent tool calls together when allowed.
+
+TEST DESCRIPTION
+{{ nl_description }}
+
+SUPERVISOR INSTRUCTIONS
+{{ instructions }}
+
+CURRENT SCENARIO
+{{ steps }}
+
+OUTPUT
+Call finalize(localized_scenario, comments) with the populated localized scenario, matching the test description and conforming to the supervisor instructions.

@@ -1,0 +1,1 @@
+'Ray-based helpers for Sakura.\n\nCurrently includes an actor that initializes project config and CLDK analysis\nonce per project, and exposes methods to run localization evaluation for one\nor many NL2Test inputs.\n'

@@ -1,0 +1,11 @@
+{
+    "summary": {
+        "new_test_class_count": 1,
+        "new_test_method_count": 1
+    },
+    "new_tests": {
+        "org.apache.commons.validator.routines.CreditCardValidatorTest": [
+            "testGenericValidatorCircularDependency()"
+        ]
+    }
+}

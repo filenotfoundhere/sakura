@@ -1,0 +1,710 @@
+{
+    "dataset_name": "commons-jexl",
+    "tests_with_one_focal_methods": [],
+    "tests_with_two_focal_methods": [
+        {
+            "qualified_class_name": "org.apache.commons.jexl3.internal.FqcnTest",
+            "method_signature": "testBadImport1()",
+            "focal_details": [
+                {
+                    "focal_class": "org.apache.commons.jexl3.JexlBuilder",
+                    "focal_method_names": [
+                        "create()",
+                        "imports(java.util.Collection)"
+                    ]
+                }
+            ]
+        },
+        {
+            "qualified_class_name": "org.apache.commons.jexl3.internal.FqcnTest",
+            "method_signature": "testBadImport0()",
+            "focal_details": [
+                {
+                    "focal_class": "org.apache.commons.jexl3.JexlBuilder",
+                    "focal_method_names": [
+                        "create()",
+                        "imports(java.util.Collection)"
+                    ]
+                }
+            ]
+        }
+    ],
+    "tests_with_more_than_two_to_five_focal_methods": [
+        {
+            "qualified_class_name": "org.apache.commons.jexl3.SwitchTest",
+            "method_signature": "testBrokenSwitchExpression0()",
+            "focal_details": [
+                {
+                    "focal_class": "org.apache.commons.jexl3.JexlEngine",
+                    "focal_method_names": [
+                        "createScript(java.lang.String, java.lang.String[])"
+                    ]
+                },
+                {
+                    "focal_class": "org.apache.commons.jexl3.JexlBuilder",
+                    "focal_method_names": [
+                        "create()",
+                        "safe(boolean)",
+                        "strict(boolean)"
+                    ]
+                },
+                {
+                    "focal_class": "org.apache.commons.jexl3.JexlException.Parsing",
+                    "focal_method_names": [
+                        "getMessage()"
+                    ]
+                }
+            ]
+        },
+        {
+            "qualified_class_name": "org.apache.commons.jexl3.SwitchTest",
+            "method_signature": "testSwitchStatement()",
+            "focal_details": [
+                {
+                    "focal_class": "org.apache.commons.jexl3.JexlEngine",
+                    "focal_method_names": [
+                        "createScript(java.lang.String, java.lang.String[])"
+                    ]
+                },
+                {
+                    "focal_class": "org.apache.commons.jexl3.JexlScript",
+                    "focal_method_names": [
+                        "execute(org.apache.commons.jexl3.JexlContext, java.lang.Object[])"
+                    ]
+                },
+                {
+                    "focal_class": "org.apache.commons.jexl3.JexlBuilder",
+                    "focal_method_names": [
+                        "create()",
+                        "safe(boolean)",
+                        "strict(boolean)"
+                    ]
+                }
+            ]
+        },
+        {
+            "qualified_class_name": "org.apache.commons.jexl3.SwitchTest",
+            "method_signature": "testSwitchExpression()",
+            "focal_details": [
+                {
+                    "focal_class": "org.apache.commons.jexl3.JexlEngine",
+                    "focal_method_names": [
+                        "createScript(java.lang.String, java.lang.String[])"
+                    ]
+                },
+                {
+                    "focal_class": "org.apache.commons.jexl3.JexlScript",
+                    "focal_method_names": [
+                        "execute(org.apache.commons.jexl3.JexlContext, java.lang.Object[])"
+                    ]
+                },
+                {
+                    "focal_class": "org.apache.commons.jexl3.JexlBuilder",
+                    "focal_method_names": [
+                        "create()",
+                        "safe(boolean)",
+                        "strict(boolean)"
+                    ]
+                }
+            ]
+        },
+        {
+            "qualified_class_name": "org.apache.commons.jexl3.Issues400Test",
+            "method_signature": "testIssue442()",
+            "focal_details": [
+                {
+                    "focal_class": "org.apache.commons.jexl3.JexlEngine",
+                    "focal_method_names": [
+                        "createScript(java.lang.String)"
+                    ]
+                },
+                {
+                    "focal_class": "org.apache.commons.jexl3.JexlScript",
+                    "focal_method_names": [
+                        "execute(org.apache.commons.jexl3.JexlContext)"
+                    ]
+                },
+                {
+                    "focal_class": "org.apache.commons.jexl3.JexlBuilder",
+                    "focal_method_names": [
+                        "create()"
+                    ]
+                }
+            ]
+        },
+        {
+            "qualified_class_name": "org.apache.commons.jexl3.Issues400Test",
+            "method_signature": "testIssue441()",
+            "focal_details": [
+                {
+                    "focal_class": "org.apache.commons.jexl3.JexlEngine",
+                    "focal_method_names": [
+                        "createScript(java.lang.String)",
+                        "createExpression(java.lang.String)"
+                    ]
+                },
+                {
+                    "focal_class": "org.apache.commons.jexl3.JexlExpression",
+                    "focal_method_names": [
+                        "evaluate(org.apache.commons.jexl3.JexlContext)"
+                    ]
+                },
+                {
+                    "focal_class": "org.apache.commons.jexl3.JexlScript",
+                    "focal_method_names": [
+                        "execute(org.apache.commons.jexl3.JexlContext)"
+                    ]
+                },
+                {
+                    "focal_class": "org.apache.commons.jexl3.JexlBuilder",
+                    "focal_method_names": [
+                        "create()"
+                    ]
+                }
+            ]
+        },
+        {
+            "qualified_class_name": "org.apache.commons.jexl3.Issues400Test",
+            "method_signature": "test437a()",
+            "focal_details": [
+                {
+                    "focal_class": "org.apache.commons.jexl3.JexlEngine",
+                    "focal_method_names": [
+                        "createScript(java.lang.String)"
+                    ]
+                },
+                {
+                    "focal_class": "org.apache.commons.jexl3.JexlScript",
+                    "focal_method_names": [
+                        "execute(org.apache.commons.jexl3.JexlContext)"
+                    ]
+                },
+                {
+                    "focal_class": "org.apache.commons.jexl3.JexlBuilder",
+                    "focal_method_names": [
+                        "create()"
+                    ]
+                }
+            ]
+        },
+        {
+            "qualified_class_name": "org.apache.commons.jexl3.Issues400Test",
+            "method_signature": "test450a()",
+            "focal_details": [
+                {
+                    "focal_class": "org.apache.commons.jexl3.JexlEngine",
+                    "focal_method_names": [
+                        "newInstance(java.lang.String, java.lang.Object[])"
+                    ]
+                },
+                {
+                    "focal_class": "org.apache.commons.jexl3.JexlBuilder",
+                    "focal_method_names": [
+                        "permissions(org.apache.commons.jexl3.introspection.JexlPermissions)",
+                        "create()",
+                        "silent(boolean)"
+                    ]
+                }
+            ]
+        },
+        {
+            "qualified_class_name": "org.apache.commons.jexl3.LambdaTest",
+            "method_signature": "testRefCapture5()",
+            "focal_details": [
+                {
+                    "focal_class": "org.apache.commons.jexl3.JexlEngine",
+                    "focal_method_names": [
+                        "createScript(java.lang.String)"
+                    ]
+                },
+                {
+                    "focal_class": "org.apache.commons.jexl3.JexlScript",
+                    "focal_method_names": [
+                        "execute(org.apache.commons.jexl3.JexlContext)"
+                    ]
+                },
+                {
+                    "focal_class": "org.apache.commons.jexl3.JexlFeatures",
+                    "focal_method_names": [
+                        "referenceCapture(boolean)"
+                    ]
+                },
+                {
+                    "focal_class": "org.apache.commons.jexl3.JexlBuilder",
+                    "focal_method_names": [
+                        "features(org.apache.commons.jexl3.JexlFeatures)",
+                        "create()"
+                    ]
+                }
+            ]
+        },
+        {
+            "qualified_class_name": "org.apache.commons.jexl3.internal.SourceCacheTest",
+            "method_signature": "testSource()",
+            "focal_details": [
+                {
+                    "focal_class": "org.apache.commons.jexl3.internal.Source",
+                    "focal_method_names": [
+                        "length()",
+                        "compareTo(org.apache.commons.jexl3.internal.Source)",
+                        "hashCode()"
+                    ]
+                },
+                {
+                    "focal_class": "org.apache.commons.jexl3.JexlFeatures",
+                    "focal_method_names": [
+                        "createDefault()"
+                    ]
+                }
+            ]
+        },
+        {
+            "qualified_class_name": "org.apache.commons.jexl3.internal.SourceCacheTest",
+            "method_signature": "testMetaCache()",
+            "focal_details": [
+                {
+                    "focal_class": "org.apache.commons.jexl3.internal.MetaCache",
+                    "focal_method_names": [
+                        "size()",
+                        "createCache(int)"
+                    ]
+                },
+                {
+                    "focal_class": "org.apache.commons.jexl3.JexlCache",
+                    "focal_method_names": [
+                        "size()",
+                        "put(java.lang.Object, java.lang.Object)",
+                        "get(java.lang.Object)"
+                    ]
+                }
+            ]
+        },
+        {
+            "qualified_class_name": "org.apache.commons.jexl3.BlockTest",
+            "method_signature": "testSetVSBlock()",
+            "focal_details": [
+                {
+                    "focal_class": "org.apache.commons.jexl3.JexlScript",
+                    "focal_method_names": [
+                        "execute(org.apache.commons.jexl3.JexlContext)"
+                    ]
+                },
+                {
+                    "focal_class": "org.apache.commons.jexl3.JexlEngine",
+                    "focal_method_names": [
+                        "createScript(java.lang.String, java.lang.String[])",
+                        "createScript(java.lang.String)"
+                    ]
+                }
+            ]
+        }
+    ],
+    "tests_with_more_than_five_to_ten_focal_methods": [
+        {
+            "qualified_class_name": "org.apache.commons.jexl3.SwitchTest",
+            "method_signature": "test440b()",
+            "focal_details": [
+                {
+                    "focal_class": "org.apache.commons.jexl3.JexlEngine",
+                    "focal_method_names": [
+                        "createScript(java.lang.String, java.lang.String[])"
+                    ]
+                },
+                {
+                    "focal_class": "org.apache.commons.jexl3.JexlScript",
+                    "focal_method_names": [
+                        "getParsedText()",
+                        "execute(org.apache.commons.jexl3.JexlContext, java.lang.Object[])"
+                    ]
+                },
+                {
+                    "focal_class": "org.apache.commons.jexl3.JexlBuilder",
+                    "focal_method_names": [
+                        "create()",
+                        "safe(boolean)",
+                        "strict(boolean)"
+                    ]
+                }
+            ]
+        },
+        {
+            "qualified_class_name": "org.apache.commons.jexl3.SwitchTest",
+            "method_signature": "test440a()",
+            "focal_details": [
+                {
+                    "focal_class": "org.apache.commons.jexl3.JexlEngine",
+                    "focal_method_names": [
+                        "createScript(java.lang.String, java.lang.String[])"
+                    ]
+                },
+                {
+                    "focal_class": "org.apache.commons.jexl3.JexlScript",
+                    "focal_method_names": [
+                        "getParsedText()",
+                        "execute(org.apache.commons.jexl3.JexlContext, java.lang.Object[])"
+                    ]
+                },
+                {
+                    "focal_class": "org.apache.commons.jexl3.JexlFeatures",
+                    "focal_method_names": [
+                        "ambiguousStatement(boolean)",
+                        "createDefault()"
+                    ]
+                },
+                {
+                    "focal_class": "org.apache.commons.jexl3.JexlBuilder",
+                    "focal_method_names": [
+                        "features(org.apache.commons.jexl3.JexlFeatures)",
+                        "create()",
+                        "safe(boolean)",
+                        "strict(boolean)"
+                    ]
+                },
+                {
+                    "focal_class": "org.apache.commons.jexl3.JexlException.Parsing",
+                    "focal_method_names": [
+                        "getMessage()"
+                    ]
+                }
+            ]
+        },
+        {
+            "qualified_class_name": "org.apache.commons.jexl3.SwitchTest",
+            "method_signature": "test440d()",
+            "focal_details": [
+                {
+                    "focal_class": "org.apache.commons.jexl3.JexlEngine",
+                    "focal_method_names": [
+                        "createScript(java.lang.String, java.lang.String[])"
+                    ]
+                },
+                {
+                    "focal_class": "org.apache.commons.jexl3.JexlScript",
+                    "focal_method_names": [
+                        "execute(org.apache.commons.jexl3.JexlContext, java.lang.Object[])"
+                    ]
+                },
+                {
+                    "focal_class": "org.apache.commons.jexl3.JexlBuilder",
+                    "focal_method_names": [
+                        "imports(java.lang.String[])",
+                        "loader(java.lang.ClassLoader)",
+                        "create()"
+                    ]
+                },
+                {
+                    "focal_class": "org.apache.commons.jexl3.JexlException",
+                    "focal_method_names": [
+                        "getMessage()"
+                    ]
+                }
+            ]
+        },
+        {
+            "qualified_class_name": "org.apache.commons.jexl3.SwitchTest",
+            "method_signature": "test440c()",
+            "focal_details": [
+                {
+                    "focal_class": "org.apache.commons.jexl3.JexlEngine",
+                    "focal_method_names": [
+                        "createScript(java.lang.String, java.lang.String[])"
+                    ]
+                },
+                {
+                    "focal_class": "org.apache.commons.jexl3.JexlScript",
+                    "focal_method_names": [
+                        "getParsedText()",
+                        "execute(org.apache.commons.jexl3.JexlContext, java.lang.Object[])"
+                    ]
+                },
+                {
+                    "focal_class": "org.apache.commons.jexl3.JexlBuilder",
+                    "focal_method_names": [
+                        "imports(java.lang.String[])",
+                        "loader(java.lang.ClassLoader)",
+                        "create()"
+                    ]
+                }
+            ]
+        },
+        {
+            "qualified_class_name": "org.apache.commons.jexl3.SwitchTest",
+            "method_signature": "test440e()",
+            "focal_details": [
+                {
+                    "focal_class": "org.apache.commons.jexl3.JexlEngine",
+                    "focal_method_names": [
+                        "createScript(java.lang.String, java.lang.String[])"
+                    ]
+                },
+                {
+                    "focal_class": "org.apache.commons.jexl3.JexlScript",
+                    "focal_method_names": [
+                        "execute(org.apache.commons.jexl3.JexlContext, java.lang.Object[])"
+                    ]
+                },
+                {
+                    "focal_class": "org.apache.commons.jexl3.JexlBuilder",
+                    "focal_method_names": [
+                        "imports(java.lang.String[])",
+                        "loader(java.lang.ClassLoader)",
+                        "create()"
+                    ]
+                },
+                {
+                    "focal_class": "org.apache.commons.jexl3.JexlException",
+                    "focal_method_names": [
+                        "getMessage()"
+                    ]
+                }
+            ]
+        },
+        {
+            "qualified_class_name": "org.apache.commons.jexl3.Issues400Test",
+            "method_signature": "testIssue447()",
+            "focal_details": [
+                {
+                    "focal_class": "org.apache.commons.jexl3.JexlEngine",
+                    "focal_method_names": [
+                        "createScript(java.io.File)",
+                        "createScript(java.lang.String, java.lang.String[])"
+                    ]
+                },
+                {
+                    "focal_class": "org.apache.commons.jexl3.JexlScript",
+                    "focal_method_names": [
+                        "execute(org.apache.commons.jexl3.JexlContext)",
+                        "getLocalVariables()",
+                        "execute(org.apache.commons.jexl3.JexlContext, java.lang.Object[])"
+                    ]
+                },
+                {
+                    "focal_class": "org.apache.commons.jexl3.JexlBuilder",
+                    "focal_method_names": [
+                        "create()"
+                    ]
+                }
+            ]
+        },
+        {
+            "qualified_class_name": "org.apache.commons.jexl3.Issues400Test",
+            "method_signature": "test451()",
+            "focal_details": [
+                {
+                    "focal_class": "org.apache.commons.jexl3.JexlEngine",
+                    "focal_method_names": [
+                        "createScript(java.lang.String, java.lang.String[])"
+                    ]
+                },
+                {
+                    "focal_class": "org.apache.commons.jexl3.JexlBuilder",
+                    "focal_method_names": [
+                        "permissions(org.apache.commons.jexl3.introspection.JexlPermissions)",
+                        "create()",
+                        "safe(boolean)",
+                        "silent(boolean)",
+                        "sandbox(org.apache.commons.jexl3.introspection.JexlSandbox)"
+                    ]
+                },
+                {
+                    "focal_class": "org.apache.commons.jexl3.JexlScript",
+                    "focal_method_names": [
+                        "execute(org.apache.commons.jexl3.JexlContext, java.lang.Object[])"
+                    ]
+                },
+                {
+                    "focal_class": "org.apache.commons.jexl3.introspection.JexlPermissions",
+                    "focal_method_names": [
+                        "compose(java.lang.String[])"
+                    ]
+                },
+                {
+                    "focal_class": "org.apache.commons.jexl3.introspection.JexlSandbox.Permissions",
+                    "focal_method_names": [
+                        "execute(java.lang.String[])"
+                    ]
+                }
+            ]
+        },
+        {
+            "qualified_class_name": "org.apache.commons.jexl3.Issues400Test",
+            "method_signature": "test438()",
+            "focal_details": [
+                {
+                    "focal_class": "org.apache.commons.jexl3.JexlFeatures",
+                    "focal_method_names": [
+                        "localVar(boolean)",
+                        "sideEffectGlobal(boolean)",
+                        "lambda(boolean)",
+                        "loops(boolean)",
+                        "sideEffect(boolean)"
+                    ]
+                },
+                {
+                    "focal_class": "org.apache.commons.jexl3.JexlBuilder",
+                    "focal_method_names": [
+                        "create()",
+                        "parserFactory(java.util.function.Supplier)"
+                    ]
+                },
+                {
+                    "focal_class": "org.apache.commons.jexl3.JexlEngine",
+                    "focal_method_names": [
+                        "createScript(java.lang.String, java.lang.String[])"
+                    ]
+                },
+                {
+                    "focal_class": "org.apache.commons.jexl3.JexlScript",
+                    "focal_method_names": [
+                        "execute(org.apache.commons.jexl3.JexlContext, java.lang.Object[])"
+                    ]
+                }
+            ]
+        },
+        {
+            "qualified_class_name": "org.apache.commons.jexl3.Issues400Test",
+            "method_signature": "test437b()",
+            "focal_details": [
+                {
+                    "focal_class": "org.apache.commons.jexl3.JexlFeatures",
+                    "focal_method_names": [
+                        "ambiguousStatement(boolean)",
+                        "supportsAmbiguousStatement()",
+                        "createDefault()"
+                    ]
+                },
+                {
+                    "focal_class": "org.apache.commons.jexl3.JexlEngine",
+                    "focal_method_names": [
+                        "createScript(java.lang.String)"
+                    ]
+                },
+                {
+                    "focal_class": "org.apache.commons.jexl3.JexlScript",
+                    "focal_method_names": [
+                        "execute(org.apache.commons.jexl3.JexlContext)"
+                    ]
+                },
+                {
+                    "focal_class": "org.apache.commons.jexl3.JexlBuilder",
+                    "focal_method_names": [
+                        "features(org.apache.commons.jexl3.JexlFeatures)",
+                        "create()"
+                    ]
+                }
+            ]
+        },
+        {
+            "qualified_class_name": "org.apache.commons.jexl3.LambdaTest",
+            "method_signature": "testRefCapture6()",
+            "focal_details": [
+                {
+                    "focal_class": "org.apache.commons.jexl3.JexlEngine",
+                    "focal_method_names": [
+                        "createScript(java.lang.String, java.lang.String[])",
+                        "createScript(java.lang.String)"
+                    ]
+                },
+                {
+                    "focal_class": "org.apache.commons.jexl3.JexlScript",
+                    "focal_method_names": [
+                        "execute(org.apache.commons.jexl3.JexlContext)",
+                        "execute(org.apache.commons.jexl3.JexlContext, java.lang.Object[])"
+                    ]
+                },
+                {
+                    "focal_class": "org.apache.commons.jexl3.JexlFeatures",
+                    "focal_method_names": [
+                        "referenceCapture(boolean)"
+                    ]
+                },
+                {
+                    "focal_class": "org.apache.commons.jexl3.JexlBuilder",
+                    "focal_method_names": [
+                        "features(org.apache.commons.jexl3.JexlFeatures)",
+                        "create()"
+                    ]
+                }
+            ]
+        },
+        {
+            "qualified_class_name": "org.apache.commons.jexl3.internal.SourceCacheTest",
+            "method_signature": "testInterpolationCache()",
+            "focal_details": [
+                {
+                    "focal_class": "org.apache.commons.jexl3.JexlEngine",
+                    "focal_method_names": [
+                        "createScript(java.lang.String, java.lang.String[])",
+                        "getCache()"
+                    ]
+                },
+                {
+                    "focal_class": "org.apache.commons.jexl3.JexlCache",
+                    "focal_method_names": [
+                        "size()"
+                    ]
+                },
+                {
+                    "focal_class": "org.apache.commons.jexl3.JexlScript",
+                    "focal_method_names": [
+                        "execute(org.apache.commons.jexl3.JexlContext, java.lang.Object[])"
+                    ]
+                },
+                {
+                    "focal_class": "org.apache.commons.jexl3.JexlBuilder",
+                    "focal_method_names": [
+                        "strictInterpolation(boolean)",
+                        "create()",
+                        "cache(int)"
+                    ]
+                }
+            ]
+        },
+        {
+            "qualified_class_name": "org.apache.commons.jexl3.internal.SourceCacheTest",
+            "method_signature": "testSourceCache()",
+            "focal_details": [
+                {
+                    "focal_class": "org.apache.commons.jexl3.internal.Source",
+                    "focal_method_names": [
+                        "compareTo(org.apache.commons.jexl3.internal.Source)",
+                        "equals(java.lang.Object)"
+                    ]
+                },
+                {
+                    "focal_class": "org.apache.commons.jexl3.JexlEngine",
+                    "focal_method_names": [
+                        "createScript(java.lang.String, java.lang.String[])",
+                        "getCache()"
+                    ]
+                },
+                {
+                    "focal_class": "org.apache.commons.jexl3.JexlCache",
+                    "focal_method_names": [
+                        "size()",
+                        "clear()"
+                    ]
+                },
+                {
+                    "focal_class": "org.apache.commons.jexl3.JexlScript",
+                    "focal_method_names": []
+                },
+                {
+                    "focal_class": "org.apache.commons.jexl3.JexlFeatures",
+                    "focal_method_names": [
+                        "createNone()",
+                        "createDefault()"
+                    ]
+                },
+                {
+                    "focal_class": "org.apache.commons.jexl3.JexlBuilder",
+                    "focal_method_names": [
+                        "create()",
+                        "cache(int)"
+                    ]
+                }
+            ]
+        }
+    ],
+    "tests_with_more_than_ten_focal_methods": []
+}
